@@ -10,9 +10,11 @@ import '../styles/index.css'
 
 // components
 import Home from './components/Home';
+import Navvbar from './components/Navbar';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
+    <Navvbar/>
     <Home/>
   </React.StrictMode>,
 )
